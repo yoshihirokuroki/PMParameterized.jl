@@ -1,7 +1,13 @@
 name = "PMParameterized"
 uuid = "5d0c870d-d51f-4bec-808e-82dcb9b50521"
-authors = ["Acme Corp"]
-version = "1.0.0-DEV"
+authors = ["Tim Knab"]
+version = "0.1.0"
+
+[deps]
+PMParameterizedBase = "99b5832f-53bf-45ba-a9c8-837ddefabddf"
+PMParameterizedSensitivity = "a582606a-6a0f-441d-bade-777196214a17"
+PMParameterizedSolve = "c61c237a-0ee8-4089-aed3-ebe590de2f80"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 
 [compat]
 julia = "1.9.3"
