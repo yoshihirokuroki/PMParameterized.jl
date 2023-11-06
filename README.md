@@ -57,9 +57,5 @@ mdl.states.X1_ADC = dose
 mdl.tspan = (0.0, 24*21)
 sol = solve(mdl, Tsit5(), saveat=0.5);
 plot(sol.t, sol.C_X1, label = "X1", xlabel="Time (hours)", ylabel="T-DM1 (nM)", dpi=600)
-plot!(sol.t, sol.C_X2, label = "X2")```
-
-
-
-
-
+plot!(sol.t, sol.C_X2, label = "X2")
+```
