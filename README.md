@@ -1,6 +1,6 @@
 # PMParameterized
 
-## Disclaimer: This is an initial release of packages presented in a workshop and poster at ACoP. Still undergoing validation and qualification. 
+## Disclaimer: This is an initial release of packages presented in a workshop and poster at ACoP14. Still undergoing validation and qualification. 
 
 PMParameterized is a package that builds upon [ModelingToolkit](https://docs.sciml.ai/ModelingToolkit/stable/) for quantitative systems pharmacology (QSP) and pharmacometrics (PM). 
 
