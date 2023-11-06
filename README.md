@@ -65,4 +65,4 @@ plot!(sol.t, sol.C_X2, label = "X2")
 
 
 ## Event Handling and Dosing
-Please see our [PMSimulator](www.github.com/metrumresearchgroup/PMSimulator.jl) for details
+Please see our [PMSimulator](https://github.com/metrumresearchgroup/PMSimulator.jl) package for details
