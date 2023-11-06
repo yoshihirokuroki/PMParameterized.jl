@@ -62,3 +62,7 @@ plot!(sol.t, sol.C_X2, label = "X2")
 <p align="center">
 <img src='images/tdm11.png' width='500'>
 </p>
+
+
+## Event Handling and Dosing
+Please see our [PMSimulator](www.github.com/metrumresearchgroup/PMSimulator.jl) for details
