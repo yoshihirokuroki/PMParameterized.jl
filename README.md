@@ -59,3 +59,6 @@ sol = solve(mdl, Tsit5(), saveat=0.5);
 plot(sol.t, sol.C_X1, label = "X1", xlabel="Time (hours)", ylabel="T-DM1 (nM)", dpi=600)
 plot!(sol.t, sol.C_X2, label = "X2")
 ```
+<p align="center">
+<img src='images/tdm11.png' width='500'>
+</p>
