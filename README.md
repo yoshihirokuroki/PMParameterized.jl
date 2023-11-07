@@ -1,6 +1,6 @@
 # PMParameterized
 
-## Disclaimer: This is an initial release of packages presented in a workshop and poster at ACoP. Still undergoing validation and qualification. 
+## Disclaimer: This is an initial release of packages presented in a workshop and poster at ACoP14. Still undergoing validation and qualification. 
 
 PMParameterized is a package that builds upon [ModelingToolkit](https://docs.sciml.ai/ModelingToolkit/stable/) for quantitative systems pharmacology (QSP) and pharmacometrics (PM). 
 
@@ -59,3 +59,10 @@ sol = solve(mdl, Tsit5(), saveat=0.5);
 plot(sol.t, sol.C_X1, label = "X1", xlabel="Time (hours)", ylabel="T-DM1 (nM)", dpi=600)
 plot!(sol.t, sol.C_X2, label = "X2")
 ```
+<p align="center">
+<img src='images/tdm11.png' width='500'>
+</p>
+
+
+## Event Handling and Dosing
+Please see our [PMSimulator](https://github.com/metrumresearchgroup/PMSimulator.jl) package for details
